@@ -18,5 +18,5 @@ test('testing', async ({ page }) => {
 });
 
 test('Another test',async()=>{
-
+await page.goto('file:///D:/Files/sheetal/mailAndMedia/index.html')
 })
