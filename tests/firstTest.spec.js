@@ -16,3 +16,7 @@ test('testing', async ({ page }) => {
   await page.getByRole('button', { name: 'Add Task' }).click();
   await page.close()
 });
+
+test('Another test',async()=>{
+  
+})
