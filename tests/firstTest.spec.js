@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('test', async ({ page }) => {
+test('testing', async ({ page }) => {
   await page.goto('file:///D:/Files/sheetal/mailAndMedia/index.html');
   await page.getByPlaceholder('Enter a new task').click();
   await page.getByPlaceholder('Enter a new task').fill('Wakeup!!');
